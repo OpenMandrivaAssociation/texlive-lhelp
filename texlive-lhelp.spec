@@ -1,3 +1,9 @@
+# revision 23638
+# category Package
+# catalog-ctan /macros/latex/contrib/lhelp
+# catalog-date 2007-01-08 22:21:56 +0100
+# catalog-license gpl
+# catalog-version 2.0
 Name:		texlive-lhelp
 Version:	2.0
 Release:	1
@@ -51,6 +57,7 @@ and vertical spacing to be changed.
 %doc %{_texmfdistdir}/source/latex/lhelp/lhelp.drv
 %doc %{_texmfdistdir}/source/latex/lhelp/lhelp.dtx
 %doc %{_texmfdistdir}/source/latex/lhelp/lhelp.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -61,3 +68,5 @@ and vertical spacing to be changed.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
