@@ -6,7 +6,7 @@
 # catalog-version 2.0
 Name:		texlive-lhelp
 Version:	2.0
-Release:	9
+Release:	10
 Summary:	Miscellaneous helper packages
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/lhelp
