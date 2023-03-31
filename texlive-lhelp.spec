@@ -1,6 +1,6 @@
 Name:		texlive-lhelp
 Version:	23638
-Release:	1
+Release:	2
 Summary:	Miscellaneous helper packages
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/lhelp
