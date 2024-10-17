@@ -3,7 +3,7 @@ Version:	23638
 Release:	2
 Summary:	Miscellaneous helper packages
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/lhelp
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/lhelp
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lhelp.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/lhelp.doc.r%{version}.tar.xz
